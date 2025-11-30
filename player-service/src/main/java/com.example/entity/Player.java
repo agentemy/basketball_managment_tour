@@ -22,7 +22,7 @@ public class Player {
     @Column(name = "lastname", nullable = false)
     private String lastname;
 
-    @Column(name = "jerseyNumber")
+    @Column(name = "jerseyNumber", unique = true)
     private String jerseyNumber;
 
     @Column(name = "gender")
