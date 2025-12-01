@@ -17,6 +17,7 @@
         <module>player-service</module>
         <module>team-service</module>
         <module>match-service</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>

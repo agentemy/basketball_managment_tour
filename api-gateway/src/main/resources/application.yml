@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: api-gateway
+
+logging:
+  level:
+    com.example.apigateway: DEBUG
+    org.springframework.web: INFO
